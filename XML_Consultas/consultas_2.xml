@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<maquinas>
+	<maquina nombre="deposito 1">
+	
+		<!-- sensores de la maquina-->
+		<sensor nombre="temperatura"/>
+		<sensor nombre="presion"/>
+		<sensor nombre="presencia"/>
+		<sensor nombre="color"/>
+		<texto>maquina con punzonado</texto>
+	</maquina>
+	<maquina nombre="deposito 2">
+		<sensor nombre="sonido"/>
+		<sensor nombre="forma"/>
+	</maquina>
+</maquinas>

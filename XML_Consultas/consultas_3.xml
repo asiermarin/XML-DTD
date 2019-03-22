@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weather>
+	<day date="2001-12-12">
+		<readings>
+			<reading time="0600">
+				<temp>23</temp>
+				<wind_spd>5</wind_spd>
+				<wind_dir>ESE</wind_dir>
+			</reading>
+			<reading time="1200">
+				<temp>30</temp>
+				<wind_spd>2</wind_spd>
+				<wind_dir>SE</wind_dir>
+			</reading>
+				<reading time="1800">
+				<temp>34</temp>
+				<wind_spd>10</wind_spd>
+				<wind_dir>S</wind_dir>
+			</reading>
+				<reading time="2400">
+				<temp>29</temp>
+				<wind_spd>15</wind_spd>
+				<wind_dir>S</wind_dir>
+			</reading>
+				<reading time="1205">
+				<temp>12</temp>
+				<wind_spd>1</wind_spd>
+				<wind_dir>NE</wind_dir>
+			</reading>
+		</readings>
+	</day>
+</weather>
