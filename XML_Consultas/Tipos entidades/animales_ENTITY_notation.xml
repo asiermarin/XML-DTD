@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE animales [
+   <!ELEMENT animales (animal)*>
+   <!ELEMENT animal EMPTY>
+   <!ATTLIST animal imagen ENTITY #REQUIRED>
+
+   <!ENTITY ballena SYSTEM "ballena.gif" NDATA gif>
+   <!ENTITY delfin SYSTEM "delfin.gif" NDATA gif>
+
+   <!NOTATION gif SYSTEM "image/gif">
+]>
+<!-- 
+En la DTD de este ejemplo se está indicando que los valores –datos– de las entidades (ballena y delfin) van a ser cargados desde una URI (Uniform Resource Identifier, Identificador Uniforme de Recurso). En este caso, se hace referencia a los archivos externos "ballena.gif" y "delfin.gif".
+Con NDATA (Notation Data) se ha asociado a las entidades ballena y delfin con la notación gif.
+La notación gif es una declaración del tipo MIME image/gif.
+-->
+<animales>
+   <animal imagen="ballena"/>
+   <animal imagen="delfin"/>
+</animales>

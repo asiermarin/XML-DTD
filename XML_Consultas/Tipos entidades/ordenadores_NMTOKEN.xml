@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ordenadores [  
+<!ELEMENT ordenadores (ordenador)*>  
+<!ELEMENT ordenador (#PCDATA)>  
+<!ATTLIST ordenador ip NMTOKEN #REQUIRED> ]>
+<ordenadores>  
+<ordenador ip="192.141.27.0">mlan11p147</ordenador>  
+<ordenador ip="192.141.27.1">mlan11p148</ordenador>  
+<ordenador ip="192.141.27.2">mlan11p149</ordenador> 
+</ordenadores>
+

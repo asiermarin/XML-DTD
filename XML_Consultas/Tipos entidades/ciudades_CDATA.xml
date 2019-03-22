@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ciudades [
+   <!ELEMENT ciudades (ciudad)*>
+   <!ELEMENT ciudad (#PCDATA)>
+      <!ATTLIST ciudad pais CDATA #REQUIRED>
+]>
+
+<ciudades>
+  <ciudad pais="Italia">Roma</ciudad>
+  <ciudad pais="Francia">París</ciudad>
+  <ciudad pais="Alemania">Berlín</ciudad>
+  <ciudad pais="">Viena</ciudad>
+</ciudades>

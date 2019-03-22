@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!DOCTYPE animales [
+   <!ELEMENT animales (animal)*>
+   <!ELEMENT animal (nombre)>
+   <!ELEMENT nombre (#PCDATA)>
+   <!ATTLIST animal
+      imagen CDATA #IMPLIED
+      tipo_de_imagen NOTATION (jpg | gif | png) #IMPLIED>
+
+   <!NOTATION gif SYSTEM "image/gif">
+   <!NOTATION jpg SYSTEM "image/jpeg">
+   <!NOTATION png SYSTEM "image/png"> 
+]>
+<!-- En este ejemplo, las notaciones gif, jpg y png son declaraciones de los tipos MIME (Multipurpose Internet Mail Extensions, Extensiones Multipropósito de Correo de Internet): image/gif, image/jpeg e image/png. -->
+<animales>
+    <animal imagen="ballena-azul.gif" tipo_de_imagen="gif">
+        <nombre>Ballena</nombre>
+    </animal>
+    <animal imagen="leon-dormido.png" tipo_de_imagen="png">
+        <nombre>Leon</nombre>
+    </animal>
+</animales>

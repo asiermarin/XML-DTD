@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE usuarios [
+  <!ELEMENT usuarios (usuario)*>
+  <!ELEMENT usuario (#PCDATA)>
+  <!ATTLIST usuario codigos NMTOKENS #REQUIRED>
+]>
+<!-- los valores escritos en el atributo codigos, se escriben separados por espacios en blanco.-->
+<usuarios>
+  <usuario codigos="1234 567 89">Ana</usuario>
+  <usuario codigos="ab c-d fg">Iker</usuario>
+  <usuario codigos="A1:B2">Elsa</usuario>
+</usuarios>
