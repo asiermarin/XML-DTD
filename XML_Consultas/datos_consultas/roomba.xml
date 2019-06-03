@@ -1,0 +1,83 @@
+<!-- editado con XMLSpy v2019 sp2 (http://www.altova.com) por ASN (ASN) -->
+<response>
+	<r>
+		<name>'Bumps Wheeldrops'</name>
+		<value>70</value>
+	</r>
+	<r>
+		<name>'Wall'</name>
+		<value>500</value>
+	</r>
+	<r>
+		<name>'Cliff Left'</name>
+		<value>100</value>
+	</r>
+	<r>
+		<name>'Cliff Front Left'</name>
+		<value>80</value>
+	</r>
+	<r>
+		<name>'Cliff Front Right'</name>
+		<value>80</value>
+	</r>
+	<r>
+		<name>'Cliff Right'</name>
+		<value>45</value>
+	</r>
+	<r>
+		<name>'Virtual Wall'</name>
+		<value>23</value>
+	</r>
+	<r>
+		<name>'Motor Overcurrents'</name>
+		<value>67</value>
+	</r>
+	<r>
+		<name>'Dirt Detector - Left'</name>
+		<value>78</value>
+	</r>
+	<r>
+		<name>'Dirt Detector - Right'</name>
+		<value>97</value>
+	</r>
+	<r>
+		<name>'Remote Opcode'</name>
+		<value>200</value>
+	</r>
+	<r>
+		<name>'Buttons'</name>
+		<value>3</value>
+	</r>
+	<r>
+		<name>'Distance'</name>
+		<value>2</value>
+	</r>
+	<r>
+		<name>'Angle'</name>
+		<value>45</value>
+	</r>
+	<r>
+		<name>'Charging State'</name>
+		<value>600</value>
+	</r>
+	<r>
+		<name>'Voltage'</name>
+		<value>220</value>
+	</r>
+	<r>
+		<name>'Current'</name>
+		<value>23</value>
+	</r>
+	<r>
+		<name>'Temperature'</name>
+		<value>22</value>
+	</r>
+	<r>
+		<name>'Charge'</name>
+		<value>70</value>
+	</r>
+	<r>
+		<name>'Capacity'</name>
+		<value>1000</value>
+	</r>
+</response>

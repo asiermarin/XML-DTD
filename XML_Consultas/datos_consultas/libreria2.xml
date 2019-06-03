@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<libreria>
+	<libro> <titulo idioma="es">Harry Potter</titulo>
+		<precio>29.99</precio>
+	</libro>
+	<libro>
+		<titulo idioma="en">Learning XML</titulo>
+		<precio>39.95</precio>
+	</libro>
+	<coleccion>
+		<titulo idioma="es">La biblia del Estándar XML</titulo>
+		<precio>250</precio>
+		<fasciculos>
+			<libro>
+				<titulo idioma="es">Introducción al Estándar XML</titulo>
+				<precio>50</precio>
+			</libro>
+			<libro>
+				<titulo idioma="es">Introducción al Estándar DTD</titulo>
+				<precio>50</precio>
+			</libro>
+			<libro>
+				<titulo idioma="es">Introducción al Estándar XPath</titulo>
+				<precio>50</precio>
+			</libro>
+			<libro>
+				<titulo idioma="es">Introducción al Estándar XSLT</titulo>
+				<precio>50</precio>
+			</libro>
+			<libro>
+				<titulo idioma="es">Introducción al Estándar W3C XML Schema</titulo>
+				<precio>50</precio>
+			</libro>
+		</fasciculos>
+	</coleccion>
+</libreria>

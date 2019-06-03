@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<listaCompras>
+	<cliente>
+		<nombre>Ainhoa Serna</nombre>
+		<dni>66.888.999</dni>
+	</cliente>
+	<producto>
+		<nombre>Ternera</nombre>
+		<cantidad unidad="Kg.">3</cantidad>
+		<distribuidor nif="q4567457640">
+			<nombre>Distribuciones Cárnicas</nombre>
+		</distribuidor>
+	</producto>
+	<producto>
+		<nombre>Jamón Cocido</nombre>
+		<cantidad unidad="gr.">500</cantidad>
+	</producto>
+	<producto CAD="01/12/02">
+		<nombre>Judias Verdes</nombre>
+		<cantidad unidad="Kg.">2</cantidad>
+	</producto>
+</listaCompras>
